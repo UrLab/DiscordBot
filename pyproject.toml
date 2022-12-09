@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "b-o-t-"
+version = "0.1.0"
+description = "Bachelor Over Telecommunication"
+authors = ["Minigrim0 <grimauflorent@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "b"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+"discord.py" = "^2.1.0"
+discord-py-slash-command = "^4.2.1"
+hereby = "^0.3.1"
+coloredlogs = "^15.0.1"
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.10.1"
+rope = "^1.5.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

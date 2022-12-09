@@ -9,8 +9,8 @@ packages = [{include = "b"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-"discord.py" = "^2.1.0"
-discord-py-slash-command = "^4.2.1"
+"discord.py" = "^1.7.3"
+discord-py-slash-command = "^3.0.1"
 hereby = "^0.3.1"
 coloredlogs = "^15.0.1"
 
